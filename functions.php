@@ -4,3 +4,7 @@ function lscicb_enqueue_styles()
 {
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
 }
+
+// Image sizes
+
+add_image_size( 'post-thumbnail', 865, 422, true );
