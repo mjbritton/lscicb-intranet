@@ -5,9 +5,7 @@ function lscicb_enqueue_styles()
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
 }
 
-// Image sizes
+// Image sizes for 16:9
 
-add_image_size( 'post-thumbnail', 865, 422, true );
-add_image_size( 'post-thumbnailx2', 1730, 844, true );
-add_image_size( 'homepage-carousell', 845, 222, true );
-add_image_size( 'homepage-carousellx2', 1690, 444, true );
+add_image_size( '16x9-hd', 1920, 1080, true );
+add_image_size( '16x9-4k', 3840, 2160, true );
