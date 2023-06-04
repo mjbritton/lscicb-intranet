@@ -8,3 +8,4 @@ function lscicb_enqueue_styles()
 // Image sizes
 
 add_image_size( 'post-thumbnail', 865, 422, true );
+add_image_size( 'homepage-carousell', 845, 222, true );
